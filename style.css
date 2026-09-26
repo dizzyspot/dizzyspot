@@ -12,6 +12,19 @@ body {
     color: #c0c0c0;
 }
 
+/* --- YOUR TAG - 20% BIGGER, BLACK + WHITE --- */
+.tag {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background: black;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    border: 1px solid white;
+}
+
 /* Navigation Bar */
 nav {
     display: flex;
@@ -86,17 +99,6 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #2c3e50;
-
-    .tag{
-  display:inline-block;
-  font-family:'Cinzel',serif;
-  font-size:12px; /* 20% bigger - was 10px */
-  letter-spacing:2px;
-  background:black; /* black tag */
-  color:white; /* white color */
-  padding:6px 12px;
-  border-radius:20px;
-  margin-bottom:8px;
 }
     color: white;
     position: fixed;
